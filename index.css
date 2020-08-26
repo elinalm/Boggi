@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+.logo {
+    font-family: subway-berlin-sc, sans-serif;
+    color: white;
+    font-size: 4rem;
+    padding-top: 0.2rem;
+    margin-left: 2.5rem;
+}
+
+header {
+    margin: 0;
+    background: black;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoAndMenu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    font-family: poster-gothic-excond-atf, sans-serif;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    margin: 2rem 5rem;
+}
+
+.menu p{
+    margin: 0 1rem;
+}
+
+.fa-user, .fa-shopping-cart {
+    color: #CC6600;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+}
+
+.cartUser {
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.image1 img {
+    height: 18rem;
+}
+
+.image2 img {
+    height: 18rem;
+}
+
+.image3 img {
+    height: 18rem;
+}
+
+.image1, .image2, .image3 {
+    padding: 1rem;
+
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome {
+    font-family: kegger, sans-serif;
+    color: #CC6600;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.weAre {
+    font-family: poster-gothic-excond-atf, sans-serif;
+    color: #CC6600;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.news {
+    font-family: kegger, sans-serif;
+    color: #CC6600;
+    font-size: 4rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: black;
+    height: 8rem;
+    margin: 4rem 4rem;
+}
+
+.brands {
+    font-family: kegger, sans-serif;
+    color: #CC6600;
+    font-size: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    margin: 4rem 4rem
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.product1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product1 img {
+    height: 20rem;
+    margin-bottom: 2rem;
+}
+
+.product1 p {
+    font-family: poster-gothic-excond-atf, sans-serif;
+    font-size: 1rem;
+}
+
+.product2 img {
+    height: 20rem;
+    margin-bottom: 2rem;
+}
+
+.product2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product2 p {
+    font-family: poster-gothic-excond-atf, sans-serif;
+    font-size: 1rem;
+}
+
+.product3 img {
+    height: 20rem;
+    margin-bottom: 2rem;
+}
+
+.product3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product3 p {
+    font-family: poster-gothic-excond-atf, sans-serif;
+    font-size: 1rem;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.brand1 img {
+    height: 5rem;
+    align-items: center;
+    margin: 2rem;
+}
+
+.brand1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand2 img {
+    height: 5rem;
+    align-items: center;
+    margin: 2rem;
+}
+
+.brand2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.splitter {
+    background: black;
+    height: 0.5rem;
+    margin: 2rem 8rem;
+}
+
+.brandText {
+    font-family: kegger, sans-serif;
+    color: #CC6600;
+    font-size: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    margin-top: 2rem;
+}
+
+.brand3 img {
+    height: 5rem;
+    align-items: center;
+    margin: 2rem;
+}
+
+.brand3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand4 img {
+    height: 8rem;
+    align-items: center;
+    margin: 2rem;
+
+}
+
+.brand4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand5 img {
+    height: 8rem;
+    align-items: center;
+    margin: 2rem;
+
+}
+
+.brand5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand6 img {
+    height: 12rem;
+    align-items: center;
+    margin: 2rem;
+}
+
+.brand6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background: #CCCC99;
+    height: 8rem;
+    margin-top: 5rem;
+    font-family: poster-gothic-excond-atf, sans-serif;
+}
+
+footer p{
+    margin: 1rem;
+}
+
+footer i {
+    color: white;
+    font-size: 2rem;
+    margin: 0.2rem;
+}
+
+.icons {
+    align-items: center;
+}
+
+
+
+
+
+
+
