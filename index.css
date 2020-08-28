@@ -39,6 +39,7 @@ header {
     font-size: 1rem;
     display: flex;
     margin: 2rem 5rem;
+    cursor: pointer;
 }
 
 .menu p{
